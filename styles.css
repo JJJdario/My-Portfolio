@@ -66,10 +66,16 @@ a:hover {
 
 header {
     text-align: center;
-    background: url('images/portland.jpg') no-repeat top center;
+    background: url('images/beach.jpg') no-repeat bottom center;
     background-size: cover;
     overflow: hidden;
     padding-top: 60px;
+}
+
+header.second {
+    background: url('images/surf.jpg') bottom center;
+    background-size: cover;
+    color: #b93f0f;
 }
 
 header {
@@ -80,13 +86,13 @@ header .profile-image {
     margin-top: 50px;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    border: 3px solid white;
-    transition: all .5s;
+    border-radius: 40%;
+    border: 3px solid rgb(95, 151, 142);
+    transition: all .7s;
 }
 
 header .profile-image:hover {
-    transform: scale(1.2) rotate(5deg);
+    transform: scale(1.3) rotate(-20deg);
 }
 
 .tag {
@@ -108,9 +114,9 @@ header .profile-image:hover {
     padding: 20px 40px 40px;
     max-width: 500px;
     text-align: left;
-    background: #fff;
+    background: rgb(183, 228, 248);
     border-bottom: 4px solid #ccc;
-    border-radius: 6px;
+    border-radius: 10px;
     transition: all .5s;
 }
 
